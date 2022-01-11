@@ -48,8 +48,8 @@ function draw() {
       //music.stop;
         //music=stop();
         music.stop();
-        stop(music);
-    } //
+       // stop(music);
+    } 
 
     if(block3.isTouching(ball) && ball.bounceOff(block3)){
         ball.shapeColor = "red";
